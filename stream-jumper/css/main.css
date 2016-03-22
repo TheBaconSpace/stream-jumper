@@ -103,51 +103,6 @@ nav a:hover{
 .content{
 	padding-bottom:3em;
 }
-
-.notification-wrap{
-	text-align:center;
-	background: rgba(0, 0, 0, 1);
-	padding:10px;
-	position:fixed;
-	bottom:5px;
-	right:5px;
-	z-index:2;
-	border:1px solid gray;
-	display:none;
-}
-.notification{
-	max-height:300px;
-	overflow:hidden;
-}
-.notification-button{
-	padding-top:5px;
-	border-top: 1px solid gray;
-}
-.notification-wrap .followeraddbtn, .notification-wrap .notificationclosebtn{
-	background-color:#9b33b9;
-	color: black;
-	border: none;
-	padding:5px 10px 5px 10px;
-	border-radius: 20px;
-	color:white;
-	text-transform: uppercase;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight:600;
-	cursor: pointer;
-}
-.notification-wrap .notificationclosebtn{
-	background-color:#5d5d5d;
-}
-.notification-name{
-	padding:0px 5px 5px 5px;
-}
-.partner-notification{
-	color:#b143d1;
-}
-.regular-notification{
-	color:#36a7d1;
-}
-
 .channelwrapper{
 	display:flex;
 	flex-wrap: wrap;
